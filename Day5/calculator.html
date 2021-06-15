@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_calc.css">
+    
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="head">
+        <h1>Calculator</h1>
+    </div>
+    <div class="content">
+        <div class="first">
+            <label for="first_num">First number:</label>
+            <input type="number" class="first_num" name="first_num"><br><br>
+        </div>
+
+        <div class="second">
+            <label for="second_num">Second number:</label>
+            <input type="number" class="second_num" name="second_num"><br><br>
+        </div>
+
+        
+    </div>
+    <div class="buttons">
+        <div class="but1"><button>+</button></div>
+        <div class="but2"><button>-</button></div>
+        <div class="but3"><button>*</button></div>
+        <div class="but4"><button>/</button></div>
+    </div>
+
+    <div class="output">
+        <label for="result">Result:</label>
+        <output  name="result" class="results" for="first_num second_num"></output><br></br>
+    </div>
+</div>
+<script src="calc.js"></script>
+</body>
+</html>

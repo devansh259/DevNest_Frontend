@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(238, 238, 221);
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 360px;
+    height: 360px;
+    background-color:brown;
+    transform: translate(-50%, -50%);
+    border-radius: 0px;
+    background: #ffffff;
+    
+  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .status {
+    width: 100vw;
+    height: 20%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 520;
+  }
+  
+  .block {
+    width: 60px;
+    height: 60px;
+    background-color: brown;
+    border: 1px solid white;
+  }
+  
+  .block:hover {
+    cursor: pointer;
+    background-color: rgb(73, 9, 0);
+  }
+  
+  .checked {
+    background-color: rgb(156, 188, 189);
+  }
+  

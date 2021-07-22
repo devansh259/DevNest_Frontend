@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    width: 50%;
+    background-color: coral;
+}
+h1{
+    color: cornsilk;
+    padding: 10px;
+  
+}
+
+
+.input{
+    font-size: 25px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #fff;
+    background-color: #f7f7f7;
+}
+ul{
+  width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(144, 255, 80);
+}
+li {
+    list-style: none;
+    background-color: #8d6fd4;
+    padding: 10px;
+    color: #fff;
+    display: none;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+  }
+  .delete {
+    display: none;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    height: 100%;
+    width: 10%;
+    padding-top: 2.5%;
+  }
+  
+  
+  
+  
+ 
+  }
+  .done {
+    text-decoration: line-through;
+  }
+  .deleteBtn {
+    pointer-events: none;
+  }

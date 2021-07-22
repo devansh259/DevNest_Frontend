@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.question{
+    font-size: medium;
+}
+
+.but{
+    background-color: rgb(30, 187, 95);
+    box-shadow: 5px 5px 10px #e2c5d1, -5px -5px 10px #ffebfb;
+}

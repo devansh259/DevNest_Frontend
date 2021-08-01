@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .App {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+  }
+  
+  .card {
+    border: 1px solid black;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: auto;
+    width: 25%;
+    text-align: center;
+    
+  }
+  
+  .card img {
+    width: 100%;
+  }
+
